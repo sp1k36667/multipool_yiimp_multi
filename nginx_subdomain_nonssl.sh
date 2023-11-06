@@ -77,5 +77,5 @@ sudo ln -s $STORAGE_ROOT/yiimp/site/web /var/www/${DomainName}/html;
 
 restart_service nginx;
 wait $!
-restart_service php7.3-fpm;
+restart_service php7.2-fpm;
 wait $!

@@ -44,6 +44,6 @@ sudo rm -r /etc/nginx/sites-available/default*
 
 restart_service nginx;
 wait $!
-restart_service php7.3-fpm;
+restart_service php7.2-fpm;
 wait $!
 echo -e "$GREEN Done...$COL_RESET"
